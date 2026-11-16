@@ -4,6 +4,30 @@
     /* background-color: #1B1A19; */
 }
 
+:root {
+  --bg: #f6f7fb;
+  --card: #fff;
+  --tx: #1b1f2a;
+  --ac: #4f46e5;
+  --mu: #6b7280;
+  --bd: #e5e7eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1220;
+    --card: #181c2e;
+    --tx: #e8eaf2;
+    --mu: #9aa3b8;
+    --bd: #2a3050;
+  }
+}
+
+body {
+    background-color: #252525;
+    color: white
+}
+
 .web-header {
     height: 75px;
     width: 100%;
@@ -63,3 +87,64 @@
     font-size: 1.2rem;
     color: #cac3c3;
 }
+
+
+                       /* Main */
+
+/* .add-task {
+    height: 100px;
+    width: 700px;
+    display: flex;
+    justify-self: center;
+    border: 1px solid black;
+    border-radius: 16px;
+}                        */
+.track-task {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}                      
+.routine-map {
+    height: 500px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: #222742;
+
+    
+    
+}
+
+.routine-map h2 { 
+    
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.routine-map ul { 
+    list-style: square;
+    margin-top: 30px;
+    margin-left: 40px;
+     
+}
+
+.routine-map li {
+    padding: 10px 0;
+    margin-right: 100px;
+}
+
+ .delete {
+    display: grid;
+    padding: 5px;
+
+
+ }
+/* 
+.routine-dashboard {
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 400px;
+
+} */
+                       
